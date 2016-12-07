@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func StartRound(sender: AnyObject){
+        print("Hello World")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
